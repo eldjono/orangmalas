@@ -10,10 +10,10 @@ driver.get("http://192.168.2.1")
 print(driver.title)
 
 namauser = driver.find_element_by_name("User")
-namauser.send_keys("admin")
+namauser.send_keys("user")
 
 paswot = driver.find_element_by_name("Passwd")
-paswot.send_keys("Th3w33l123")
+paswot.send_keys("user123456")
 paswot.send_keys(Keys.RETURN)
 
 time.sleep(1)
