@@ -14,7 +14,7 @@ print(driver.title)
 namauser = driver.find_element_by_name("User")
 namauser.send_keys("admin")
 paswot = driver.find_element_by_name("Passwd")
-paswot.send_keys("Th3w33l123")
+paswot.send_keys("admin")
 paswot.send_keys(Keys.RETURN)
 time.sleep(1)
 
